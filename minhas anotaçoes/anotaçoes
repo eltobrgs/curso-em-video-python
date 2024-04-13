@@ -1,0 +1,442 @@
+Python – Linguagem de Programação
+
+Introdução à Lógica de Programação - Básico
+Para seguir uma sequência lógica é necessário um conjunto de instruções colocadas em ordem sequencial lógica.
+Quando pensamos em iniciar uma programação para computador, temos de ter em mente que a máquina desconhece totalmente alguns conceitos que para nós são muito óbvios.
+Por isto, devemos descrever cada passo de forma detalhada, por mais simples que possa parecer, para que tenha uma sequência lógica na programação.
+Algoritmos - Sequência finita de passos que levam à execução de uma tarefa, Sequência finita de passos que levam à execução de uma tarefa.
+	Características do algoritmo: 
+•	Ponto inicial e ponto final
+•	Não ser ambíguo (a leitura de um algoritmo tem que ser clara)
+•	Tratar dados externos
+•	Etapas alcançáveis
+Composição de um algoritmo: 
+	- Entrada
+	- Processamento
+	- Saída
+Formas de representação:
+	Descrição narrativa
+	Fluxograma
+	Pseudocódigo
+Programas de Computadores -Os programas de computadores são os algoritmos escritos em uma linguagem computacional, como Java, C#, Python, entre outras.
+
+Variáveis e Constantes
+Quando iniciamos a programação temos de nos preocupar onde vamos armazenar as informações, para isso, temos as variáveis e constantes.
+	> Variável é um recurso utilizado na programação para armazenar e recuperar dados, ou seja, é um espaço que reservamos na memória atribuindo um nome e organizando os dados manipulados no programa.
+	> Constantes é responsável por armazenar um valor fixo em um espaço da memória. Esse valor não se altera durante a execução do programa.
+Tipos de Dados
+Ao criarmos uma variável em um programa temos de especificar o tipo de dado que será armazenado.
+Caracter – armazenará letras.
+Inteiro – Qualquer número inteiro, negativo, nulo ou positivo 
+Real – armazenará números com casas decimais 
+Lógico – valores:  verdadeiro ou falso
+
+Comandos de entrada e saída
+	Entrada: o comando leia é utilizado para que o usuário informe um valor a ser atribuído em uma variável do sistema.
+	Saída:  para escrita de dados ou mensagens utilizamos o comando ESCREVA, para escrita em uma linha e ESCREVAL, para a escrita com quebra de linha ao final.
+Operadores
+Os operadores são meios de incrementar, decrementar, comparar e avaliar dados durante a execução do programa 
+Operador de Atribuição
+	Indica que algum valor será atribuído em alguma variável. Na maioria das linguagens de programação o símbolo de atribuição é o operador igual (=).
+Operador Aritméticos
+	Os operadores aritméticos permitem a realização de operações matemáticas com dados do tipo numérico.
+Ao realizar as operações matemáticas temos uma sequência das operações a serem realizadas, que são:
+Cálculos que estão entre parênteses: ( )
+Exponenciação: * *
+Multiplicação, divisão (o que estiver primeiro): * /
+Adição ou Subtração (o que estiver primeiro): + ou –
+
+Operadores Relacionais
+Os operadores relacionais são utilizados para comparar caracteres, números, variáveis e expressões.
+OPERAÇÃO	SÍMBOLO
+Comparação	=
+Diferente de	<>
+Maior que	>
+Menor que	<
+Maior ou igual >=
+Menor ou igual<=
+Operadores Lógicos 
+	Os operadores lógicos servem para combinar resultados de expressões, retornando se o resultado final é verdadeiro ou falso.
+	E/AND -  o resultado de uma expressão lógica usando o operador lógico AND é verdadeira, somente se todas aas condições forem verdadeiras. 
+	OU/OR – O resultado de uma expressão lógica usando o operador lógico OR é falsa, somente se todas as condições forem falsas. 
+	NÃO/NOT - O resultado de uma expressão lógica usando o operador lógico, inverte o valor da expressão ou condição, ou seja, se verdadeira inverte para falsa e vice-versa. 
+	Tabela verdade
+A tabela verdade apresenta os valores possíveis gerados pelos três operadores lógicos (E/AND, OU/OR, NÃO/NOT), envolvendo dois valores lógicos.
+
+Módulo 2
+Recapitulando... 
+A linguagem Python é considerada uma linguagem interpretada, orientada a objetos, de alto nível e com semântica dinâmica.
+Características da linguagem Python:
+•	Linguagem de alto nível
+•	Orientada a objetos
+•	Tipagem dinâmica e forte
+•	Fácil aprendizagem
+•	Comunidade ativa
+•	Muitas bibliotecas/recursos
+•	Linguagem interpretada
+
+Linguagem Interpretada:
+	É uma linguagem de programação na qual o código fonte é executado por um programa de computador chamado interpretador que, em seguida, é executado pelo sistema operacional ou processador.
+
+Versões do Python:
+	2.0 - O Python 2 foi padrão da linguagem por muito tempo.
+	       - Recebeu atualizações de segurança até 2020, quando seu suporte foi descontinuado.
+	3.0 - Python 3 introduziu algumas mudanças que quebraram a compatibilidade com a versão anterior, o que criou a necessidade de se manter duas versões da linguagem.
+                  - Está constantemente evoluindo e recebendo novas funcionalidades, que não estavam presentes na versão anterior.
+
+Integrated Development Environment (IDE)
+	Ambiente de Desenvolvimento Integrado é um software que combina ferramentas comuns para desenvolvimento em uma única interface gráfica. Isso facilita o desenvolvimento de aplicativos
+	IDE
+•	Editor de código-fonte
+•	Automação de compilação local
+•	Debugger
+
+Em vez de usarmos a ferramenta do Python para criar e executar programas, a utilização de uma IDE torna o desenvolvimento mais fácil e agradável com um aspecto moderno, o que vai facilitar bastante no desenvolvimento das atividades. Atualmente, temos disponível no mercado várias IDEs
+
+Módulo 3 
+Comando print()
+	O comando print() é utilizado quando desejamos imprimir alguma mensagem de texto na tela. ‘ print(“.....”) ‘
+A linguagem Python é Case Sensitive. Portanto, é importante estar atento à escrita dos comandos.
+
+Variáveis 
+	Ao iniciarmos uma variável e atribuirmos um valor à ela, a maioria das linguagens de programação carrega valores que são alocados em memória e quando esses valores são alterados, a memória também é alterada. Na linguagem de programação Python, as variáveis armazenam endereços de memória e não valores.
+
+Declaração de Variáveis 
+	Na linguagem Python não é necessário declarar as variáveis no início do código. Isso pode ser feito a qualquer momento, durante a codificação.
+Sobre o tipo da variável, não é necessário defini-lo em sua declaração
+Diferente da maioria das linguagens, uma variável em Python não tem um tipo fixo, apenas o tipo do conteúdo.
+	Exemplos:
+X = 10
+Ao atribuir o valor 10 na variável X, ela passará a ser reconhecida com um tipo inteiro.
+Cidade = ‘Santos’
+Atribuindo o valor ‘Santos’ na variável Cidade, ela passará a ser reconhecida com um tipo string
+
+Também é possível identificar os tipos básicos que são: inteiro (int), real (float), lógico/booleano (bool) e string (str).
+OBS: Para apresentação de textos é necessário utilizar aspas duplas “”.
+
+Também podemos concatenar as informações na linguagem Python utilizando o sinal de soma (+).
+Neste caso, temos de converter os valores que não são string para o tipo string.
+Para isso, utilizamos o comando (str) antes da impressão da variável.
+
+Utilizando máscara de formatação
+É possível utilizar identificadores para representar os tipos de dados armazenados nas variáveis que devem ser exibidas na tela
+%d ou %i --Int (inteiro)---	Exibe um valor inteiro.
+%f---Float ou double---Exibe um valor decimal.
+%ld----Long Int---Exibe um número inteiro longo
+%e ou %E---Float e double---Exibe um número exponencial (número científico).
+%c---Char (caractere)---Exibe um caractere.
+%o----Int---Exibe um número inteiro em formato octal.
+%x ou %X----Int----Exibe um número inteiro no formato hexadecimal.
+%s-----Char----Exibe uma cadeia de caracteres (string).
+%r----Boolean----Exibe true ou false (verdadeiro ou falso).
+
+Entrada de Dados
+Até o momento, trabalhamos com a entrada de dados por meio do código, porém, para que possa ter uma interação do usuário tornando o programa dinâmico, temos de trabalhar com a função de entrada de dados, que no Python é conhecida como:
+INPUT
+
+Exemplo:
+Fruta = input(“Digite o nome de uma fruta: “)
+Print(fruta)
+Obs: Ao executar o programa, será exibida uma mensagem solicitando a digitação do nome de uma fruta e o prompt ficará piscando, aguardando que o usuário digite alguma informação.
+
+Entrada de dados não string
+	Quando utilizamos a entrada de dados por meio da função input, essa será considerada do tipo string. Assim, caso seja necessário realizar a entrada de valores numéricos, temos de converter o tipo de dado, de acordo com o tipo que desejamos armazenar na variável.
+  Exemplo: 
+codigo = int(input(“Digite o código do funcionário “)) 
+Nome = input(“Digite o nome do funcionário “)
+
+Sequência de Escapes
+ Utilizamos a sequência de escapes para auxiliar na formatação da exibição dos dados
+\n	Insere uma quebra de linha.
+\t	Insere tabulação horizontal.
+\v	Insere tabulação vertical.
+\r	Equivalente ao efeito da tecla Enter.
+\’	Aspas simples.
+\”	Aspas duplas.
+\\	Insere uma barra invertida (backslash).
+\a	Chamado de ASC bell ou beep do sistema. Se houver suporte, aciona um bipe.
+\b	Aciona o backspace, ou seja, apaga o caractere anterior.
+\f	Insere uma quebra de página.
+\u	Insere um caractere UNICODE. Deve acompanhar um código com 4 números.
+
+
+Módulo 4
+Estruturas Lógicas
+Operadores Aritméticos: 
+Para a realização de cálculos matemáticos temos de utilizar os operadores aritméticos
+
+Adição	+
+Subtração   -
+Multiplicação	*
+Divisão Real	/
+Divisão Inteiro   //
+Exponenciação   **
+Resto da Divisão   %
+
+   Operadores Relacionais: 
+       
+ Utilizamos os operadores relacionais para comparação de valores ou uma variável que pode assumir valor booleano
+ 
+Igual a	==
+Diferente de	!=
+Maior que	>
+Menor que	<
+Maior ou igual a    >=
+Menor ou igual a   <=
+
+Operadores Lógicos:
+
+	Os operadores lógicos são utilizados para combinar resultados de expressões, retornando se o resultado final é True ou False
+
+	E	and
+OU	or
+Não	not
+
+A = 5
+B = 15
+C = 20
+
+print("A == B AND B > C: ", A == B and B > C)
+print(" A < B OR B > C: ", A < B or B > C)
+print("not A == B : ", not A == B)
+
+RESULTADO:
+
+A == B AND B > C:  False
+ A < B OR B > C:  True
+not A == B :  True
+
+
+
+Indentação
+	Indentação é uma forma de arrumar o código, fazendo com que algumas linhas fiquem mais à direita que outras, à medida que adicionamos espaços em seu início.
+
+Exemplo:
+idade = int(input("Dgite o nome de uma fruta: "))
+print(idade)
+if idade >= 18:
+    print("maior idade")
+else:
+    print("menor idade")
+
+Exemplo errado:
+idade = int(input("Dgite o nome de uma fruta: "))
+print(idade)
+if idade >= 18:
+print("maior idade")
+else:
+print("menor idade")
+
+Estrutura de decisão:
+	A estrutura de decisão, também conhecida como estrutura condicional, tem como finalidade comparar e efetuar um desvio de processamento do programa.
+	Caso a condição seja verdadeira, as instruções determinadas após a instrução if serão executadas.
+
+Estrutura de decisão simples if (se):
+A estrutura de condição if permite avaliar uma expressão e, se o resultado for verdadeiro, será executada uma determinada ação
+if idade >= 18:
+Logo após a declaração e inicialização da variável, podemos notar a estrutura condicional iniciada pela palavra reservada if, seguida por uma condição e por dois-pontos.
+
+Estrutura de decisão composta ELSE (se não):
+ 	caso a condição seja verdadeira, será executada a instrução contida entre o comando if
+	E SE A CONDIÇÃO FOR FALSA?
+Neste caso, utilizaremos o comando else, que significa “se não”.
+Assim, se a condição for falsa, serão executados os comandos que estiverem posicionados logo após a instrução else. 
+
+
+
+
+
+
+Exemplo:
+notaA = float(input("informe a primeira nota: "))
+notaB = float(input("Informe a segunda nota: "))
+
+mediafinal = (notaA + notaB) / 2
+
+if mediafinal >= 7.0:
+    print("A media: %.lf -  Aprovado "% mediafinal)
+else:
+    print("A media: %.lf -  Reprovado " % mediafinal)
+
+´
+Comandos  if – elif – else
+
+	Adicionalmente, se existir mais de uma condição alternativa que precise ser verificada, utilizamos a condição elif, pois ela avalia as expressões intermediárias antes do comando else.
+	Exemplo:
+idade = int(input("Digite a idade: "))
+if idade > 18:
+    print("Maior idade")
+elif idade >16:
+    print("Infanto juvenil")
+else:
+    print("Menor idade")
+
+Estruturas de Repetição
+	As estruturas de repetição, também conhecidas como laços de repetição, permitem que um conjunto de instruções seja executado, até que uma determinada condição seja verdadeira.
+	As estruturas de repetição em Python são:
+
+For (para) : Normalmente utilizamos a estrutura For quando sabemos quantas vezes o laço de programação deverá ser executado.
+	Sintaxe da estrutura For:
+
+For {referência}
+
+in {sequência}: {bloco de código}
+__________________________________
+for n in range(10):
+    print(n)
+
+
+A variável n é inicialmente ajustada para 0 (inicialização com valor padrão).
+
+Uma vez que n é menor do que 10 (condição), o comando print é executado.
+
+Essa condição é adicionada com o comando range.
+
+A variável n é incrementada em 1 (incremento padrão) e é testado se o valor de n ainda é menor do que 10.
+
+O processo se repete até que o valor de n fique maior ou igual a 10.
+
+Determinar valor inicial: 
+	Por padrão, o valor inicial do laço de repetição é 0
+	Podemos alterar esse valor no comando range
+Exemplo:
+	For n in range(5, 16):
+		Print(n)
+Obs: Neste caso, os valores apresentados na tela terão como mínimo, o número 5 e, no máximo, 15.
+
+
+Utilizar estrutura em ordem decrescente:
+	
+	For n in range (10, 0 , -1):
+		Print(n)
+
+Neste caso, os valores apresentados na tela estarão em ordem decrescente.
+
+Estrutura While (enquanto):
+
+	A estrutura While (enquanto), executa um determinado conjunto de instruções, enquanto a condição verificada no início permanecer verdadeira.
+
+Diferente da estrutura for (para), não é necessário determinar o número de vezes que a condição será executada.
+
+Sintaxe da estrutura While
+While condição
+{bloco de código}
+Exemplo:
+x = 1;
+while x<=15:
+    print(x);
+    x=x+1
+
+
+MÓDULO 5
+ Funções 
+Tem o objetivo de otimizar o código-fonte e evitar a replicação do código, ou seja, definimos as funções uma única vez e sempre que necessário podemos utilizá-las.
+
+Sintaxe para aplicação de uma função
+
+	def nome_da_função (parâmetros):
+<instruções>
+return “valor do retorno”
+Def - determina o início da função
+Parâmetros – são informações que a função pode receber para o seu processamento. 
+Corpo da função – é o local que é aplicada a sequencia de instrução, como entrada, processamento e/ou saída
+Return – Deve ser utilizado quando houver necessidade de retornar alguma informação para a ação da função.
+Indentação – Deve possuir quatro espações em branco e pular duas linhas para o próximo bloco de instrução. 
+
+Exemplo usando função:
+def lernotas():
+    n=float(input("Digite uma nota para o aluno(a): "))
+    return n
+
+def resultado(n1,n2):
+    media=(n1+n2)/2
+    print("Nota 1: ", n1)
+    print("nota 2: ", n2)
+    print("Média: ", media, "Resultado: ", end = "")
+    if media >= 7:
+        print("Aprovado")
+    else:
+        print("Reprovado")
+
+a = lernotas()
+b = lernotas()
+resultado(a,b)
+
+
+Módulo 6
+
+Outros recursos no python
+
+Funções para manipulação de textos
+	Por meio da linguagem Python, podemos manipular dados em um arquivo texto, mostrando as operações básicas de leitura e escrita.
+	Esse arquivo texto é conhecido como arquivo sequencial, porque a leitura tem de ser feita de forma sequencial, do início ao fim do arquivo.
+
+Função Open
+	A função open() é utilizada para a abertura dos arquivos.
+Sua sintaxe é:
+arquivo = open(‘arquivo.txt’, ‘w’)
+
+A função open(), após a declaração da variável que receberá a função, necessita de dois parâmetros: primeiramente o nome do arquivo e, depois, o modo como estamos abrindo esse arquivo.
+
+	Reescrever o arquivo
+
+Ao utilizar ‘w’ em um arquivo já existente, ele reescreverá todo o conteúdo do arquivo, fazendo com que todos os dados que estavam nele sejam apagados.
+
+	Função write ( )
+	 	
+A função write() é utilizada para gravar
+
+informações em um arquivo existente.
+
+Sua síntaxe é:
+arquivo.write (‘Curso Python n’)
+arquivo.write (‘Aula Prática’)
+
+Na função, adicionamos o nome do arquivo e, logo após o símbolo do ponto final, fazemos a chamada da função write. Em seguida, adicionamos o texto que deverá ser gravado entre aspas simples.
+
+
+Função close ( )
+	
+	A função close ( ) é muito importante para encerrar o arquivo após sua utilização.
+Atenção: Nunca abra o arquivo com a função open e depois o faça de novo, sem antes fechar a instância anterior.
+
+Sua sintaxe é:
+arquivo.close()
+
+Obs: Um dos motivos da necessidade da função close() é que se tentarmos escrever em um arquivo e não o fecharmos depois de terminar a escrita, as informações não chegarão ao arquivo e nada será escrito.
+
+	Função read ( )
+	
+	A função read() realiza a leitura de todo conteúdo do arquivo.
+Sua sintaxe é:
+leitura=open(‘arquivo.txt, ‘r’)
+print leitura.read()
+leitura.close()
+Utilizamos o parâmetro ‘r’ que representa que o arquivo está sendo aberto em modo leitura.
+
+Desta forma, não é possível modificar os dados contidos no arquivo.
+
+OBS: Ao utilizar a função read (), o nome do arquivo deve ser:
+1) Uma string com o caminho completo (por exemplo, C Documentos teste txt), ou
+2) O caminho em relação ao diretório atual (nomes txt do arquivo que se deseja abrir)
+
+
+Modos de leitura de arquivos 
+	 
+	Além os comandos vistos até aqui (w e r), também temos disponíveis outros comandos que podemos utilizar nos parâmetros.
+
+r:  Abre o arquivo somente para leitura.
+O arquivo deve já existir.
+
+r+:  Abre o arquivo para leitura e escrita. O arquivo deve já existir.
+A escrita começa a partir da primeira linha e, caso exista algo escrito no arquivo, as linhas serão reescritas, conforme formos escrevendo.
+
+w:  Abre o arquivo somente para escrita, no início do arquivo.
+Apagará o conteúdo do arquivo se ele já existir. Criará um arquivo novo se não existir.
+
+w+  Abre o arquivo para escrita e leitura, apagando o conteúdo preexistente.
+
+a:  Abre o arquivo para escrita no final do arquivo.
+Não apaga o conteúdo preexistente.
+
+a+ : Abre o arquivo para escrita no final do arquivo e leitura.
